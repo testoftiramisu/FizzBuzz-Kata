@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A250F31C1BFB732400F9EE73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A250F31B1BFB732400F9EE73 /* main.m */; };
+		A250F3241BFB747500F9EE73 /* FizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = A250F3231BFB747500F9EE73 /* FizzBuzz.m */; };
+		A250F3311BFB795A00F9EE73 /* FizzBuzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A250F3301BFB795A00F9EE73 /* FizzBuzzTests.m */; };
+		A250F3361BFB7BE000F9EE73 /* FizzBuzz.h in Sources */ = {isa = PBXBuildFile; fileRef = A250F3221BFB747500F9EE73 /* FizzBuzz.h */; };
+		A250F3371BFB7BE000F9EE73 /* FizzBuzz.m in Sources */ = {isa = PBXBuildFile; fileRef = A250F3231BFB747500F9EE73 /* FizzBuzz.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A250F3161BFB732400F9EE73 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A250F3181BFB732400F9EE73 /* FizzBuzz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FizzBuzz; sourceTree = BUILT_PRODUCTS_DIR; };
+		A250F31B1BFB732400F9EE73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A250F3221BFB747500F9EE73 /* FizzBuzz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FizzBuzz.h; sourceTree = "<group>"; };
+		A250F3231BFB747500F9EE73 /* FizzBuzz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizzBuzz.m; sourceTree = "<group>"; };
+		A250F32E1BFB795A00F9EE73 /* FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A250F3301BFB795A00F9EE73 /* FizzBuzzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FizzBuzzTests.m; sourceTree = "<group>"; };
+		A250F3321BFB795A00F9EE73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A250F3151BFB732400F9EE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A250F32B1BFB795A00F9EE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A250F30F1BFB732400F9EE73 = {
+			isa = PBXGroup;
+			children = (
+				A250F31A1BFB732400F9EE73 /* FizzBuzz */,
+				A250F32F1BFB795A00F9EE73 /* FizzBuzzTests */,
+				A250F3191BFB732400F9EE73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A250F3191BFB732400F9EE73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A250F3181BFB732400F9EE73 /* FizzBuzz */,
+				A250F32E1BFB795A00F9EE73 /* FizzBuzzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A250F31A1BFB732400F9EE73 /* FizzBuzz */ = {
+			isa = PBXGroup;
+			children = (
+				A250F31B1BFB732400F9EE73 /* main.m */,
+				A250F3221BFB747500F9EE73 /* FizzBuzz.h */,
+				A250F3231BFB747500F9EE73 /* FizzBuzz.m */,
+			);
+			path = FizzBuzz;
+			sourceTree = "<group>";
+		};
+		A250F32F1BFB795A00F9EE73 /* FizzBuzzTests */ = {
+			isa = PBXGroup;
+			children = (
+				A250F3301BFB795A00F9EE73 /* FizzBuzzTests.m */,
+				A250F3321BFB795A00F9EE73 /* Info.plist */,
+			);
+			path = FizzBuzzTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A250F3171BFB732400F9EE73 /* FizzBuzz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A250F31F1BFB732400F9EE73 /* Build configuration list for PBXNativeTarget "FizzBuzz" */;
+			buildPhases = (
+				A250F3141BFB732400F9EE73 /* Sources */,
+				A250F3151BFB732400F9EE73 /* Frameworks */,
+				A250F3161BFB732400F9EE73 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FizzBuzz;
+			productName = FizzBuzz;
+			productReference = A250F3181BFB732400F9EE73 /* FizzBuzz */;
+			productType = "com.apple.product-type.tool";
+		};
+		A250F32D1BFB795A00F9EE73 /* FizzBuzzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A250F3331BFB795A00F9EE73 /* Build configuration list for PBXNativeTarget "FizzBuzzTests" */;
+			buildPhases = (
+				A250F32A1BFB795A00F9EE73 /* Sources */,
+				A250F32B1BFB795A00F9EE73 /* Frameworks */,
+				A250F32C1BFB795A00F9EE73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FizzBuzzTests;
+			productName = FizzBuzzTests;
+			productReference = A250F32E1BFB795A00F9EE73 /* FizzBuzzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A250F3101BFB732400F9EE73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Denys Khlivnyy";
+				TargetAttributes = {
+					A250F3171BFB732400F9EE73 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A250F32D1BFB795A00F9EE73 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A250F3131BFB732400F9EE73 /* Build configuration list for PBXProject "FizzBuzz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A250F30F1BFB732400F9EE73;
+			productRefGroup = A250F3191BFB732400F9EE73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A250F3171BFB732400F9EE73 /* FizzBuzz */,
+				A250F32D1BFB795A00F9EE73 /* FizzBuzzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A250F32C1BFB795A00F9EE73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A250F3141BFB732400F9EE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A250F31C1BFB732400F9EE73 /* main.m in Sources */,
+				A250F3241BFB747500F9EE73 /* FizzBuzz.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A250F32A1BFB795A00F9EE73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A250F3361BFB7BE000F9EE73 /* FizzBuzz.h in Sources */,
+				A250F3371BFB7BE000F9EE73 /* FizzBuzz.m in Sources */,
+				A250F3311BFB795A00F9EE73 /* FizzBuzzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A250F31D1BFB732400F9EE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A250F31E1BFB732400F9EE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A250F3201BFB732400F9EE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A250F3211BFB732400F9EE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A250F3341BFB795A00F9EE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FizzBuzzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DKH.FizzBuzzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A250F3351BFB795A00F9EE73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FizzBuzzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DKH.FizzBuzzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A250F3131BFB732400F9EE73 /* Build configuration list for PBXProject "FizzBuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A250F31D1BFB732400F9EE73 /* Debug */,
+				A250F31E1BFB732400F9EE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A250F31F1BFB732400F9EE73 /* Build configuration list for PBXNativeTarget "FizzBuzz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A250F3201BFB732400F9EE73 /* Debug */,
+				A250F3211BFB732400F9EE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A250F3331BFB795A00F9EE73 /* Build configuration list for PBXNativeTarget "FizzBuzzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A250F3341BFB795A00F9EE73 /* Debug */,
+				A250F3351BFB795A00F9EE73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A250F3101BFB732400F9EE73 /* Project object */;
+}
