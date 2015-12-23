@@ -2,9 +2,6 @@
 //  FizzBuzzTests.m
 //  FizzBuzzTests
 //
-//  Created by Denys Khlivnyy on 11/17/15.
-//  Copyright © 2015 Denys Khlivnyy. All rights reserved.
-//
 
 #import <XCTest/XCTest.h>
 #import "FizzBuzz.h"
@@ -30,42 +27,35 @@
     [super tearDown];
 }
 
-- (void)testShouldReturnOneAsNumber{
+- (void)testThatItReturnNumberIfNotDivisibleByThreeOrFive{
     XCTAssertEqualObjects(@"1", [fizzBuzz getAnswerFor:1], @"Answer should be 1 for input 1");
-}
-
-- (void)testShouldReturnTwoAsNumber{
     XCTAssertEqualObjects(@"2", [fizzBuzz getAnswerFor:2], @"Answer should be 2 for input 2");
+    XCTAssertEqualObjects(@"4", [fizzBuzz getAnswerFor:4], @"Answer should be 4 for input 4");
+    XCTAssertEqualObjects(@"7", [fizzBuzz getAnswerFor:7], @"Answer should be 7 for input 7");
 }
 
-- (void)testShouldReturnThreeAsFizz{
+- (void)testThatItReturnFizzForMultiplesOfThree{
     XCTAssertEqualObjects(@"Fizz", [fizzBuzz getAnswerFor:3], @"Should print Fizz");
-}
-
-- (void)testShouldReturnSixAsFizz{
     XCTAssertEqualObjects(@"Fizz", [fizzBuzz getAnswerFor:6], @"Should print Fizz");
 }
 
-- (void)testShouldReturnFiveAsBuzz{
+- (void)testThatItReturnBuzzForMultiplesOfFive{
     XCTAssertEqualObjects(@"Buzz", [fizzBuzz getAnswerFor:5], @"Should print Buzz");
-}
-
-- (void)testShouldReturnTenAsBuzz{
     XCTAssertEqualObjects(@"Buzz", [fizzBuzz getAnswerFor:10], @"Should print Buzz");
 }
 
-- (void)testShouldReturnFifteenAsFizzBuzz{
+- (void)testThatItReturnFizzBuzzIfDivisibleByThreeOrFive{
     XCTAssertEqualObjects(@"FizzBuzz", [fizzBuzz getAnswerFor:15], @"Should print FizzBuzz");
-}
-
-- (void)testShouldReturnThirtyAsFizzBuzz{
     XCTAssertEqualObjects(@"FizzBuzz", [fizzBuzz getAnswerFor:30], @"Should print FizzBuzz");
 }
 
-- (void)testShouldThrowForZero{
-    XCTAssertEqualObjects(@"FizzBuzz", [fizzBuzz getAnswerFor:0], @"Should print FizzBuzz");
+- (void)testThatItThrowForZero{
+    XCTAssertThrowsSpecificNamed([fizzBuzz getAnswerFor:0], NSException, NSInvalidArgumentException, @"should throw NSInvalidArgumentException");
 }
 
+- (void)testThatItThrowForMinusOne{
+    XCTAssertThrowsSpecificNamed([fizzBuzz getAnswerFor:-1], NSException, NSInvalidArgumentException, @"should throw NSInvalidArgumentException");
+}
 
 
 @end
