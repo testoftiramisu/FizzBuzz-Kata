@@ -10,6 +10,6 @@
 
 @interface FizzBuzz : NSObject
 
-- (NSString *)convert:(int)number;
+- (NSString *)getAnswerFor:(int)number;
 
 @end
