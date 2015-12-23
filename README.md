@@ -33,5 +33,5 @@ Sample output:
     Buzz
 
     ... etc up to 100
-    
-Implementation based on Java based solution by @letsdeveloper
+   
+Implementation based on Java based solution by [letsdeveloper.com](http://letsdeveloper.com )
