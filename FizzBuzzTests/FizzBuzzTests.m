@@ -9,12 +9,9 @@
 @interface FizzBuzzTests : XCTestCase {
     
 @private FizzBuzz *fizzBuzz;
-    
+
 }
-
 @end
-
-
 
 @implementation FizzBuzzTests
 
@@ -56,6 +53,5 @@
 - (void)testThatItThrowForMinusOne{
     XCTAssertThrowsSpecificNamed([fizzBuzz getAnswerFor:-1], NSException, NSInvalidArgumentException, @"should throw NSInvalidArgumentException");
 }
-
 
 @end
